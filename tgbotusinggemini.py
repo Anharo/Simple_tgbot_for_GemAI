@@ -6,7 +6,7 @@ import google.generativeai as genai
 f = open('token.txt','r')
 TOKEN: Final = f.read()
 BOT_USERNAME: Final = '@goodxd_bot'
-api_key = 'AIzaSyAN-sRv8w2YRbNeGEhvjPRrsML_nIa-98U'
+api_key = 'Put Your own API Key please'
 
 #Fuction to generate the response through AI
 def gemini_ai_response(text: str) -> str:
